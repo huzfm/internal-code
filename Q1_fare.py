@@ -8,5 +8,6 @@ class Bus(Vehicle):
         fare1 =self.capacity * 100
         total_fare = fare1 + (0.1 * fare1)
         return total_fare
+
 final=Bus(5)
 print(final.fare())
