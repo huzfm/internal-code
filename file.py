@@ -1,0 +1,5 @@
+f=open("hy.txt",'r')
+# print(f.tell())
+# print(f.read(3))
+f.seek(25)
+print(f.read())
